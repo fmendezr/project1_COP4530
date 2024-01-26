@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A6BF5712B6433AF008CFCA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BF5702B6433AF008CFCA7 /* main.cpp */; };
+		4A6BF5792B6433F9008CFCA7 /* IntDList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BF5772B6433F9008CFCA7 /* IntDList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		4A6BF56D2B6433AF008CFCA7 /* project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project1; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A6BF5702B6433AF008CFCA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4A6BF5772B6433F9008CFCA7 /* IntDList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntDList.cpp; sourceTree = "<group>"; };
+		4A6BF5782B6433F9008CFCA7 /* IntDList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntDList.hpp; sourceTree = "<group>"; };
+		4A6BF57B2B64342E008CFCA7 /* IntDList_node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntDList_node.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		4A6BF56F2B6433AF008CFCA7 /* project1 */ = {
 			isa = PBXGroup;
 			children = (
-				4A6BF5702B6433AF008CFCA7 /* main.cpp */,
+				4A6BF5772B6433F9008CFCA7 /* IntDList.cpp */,
+				4A6BF57B2B64342E008CFCA7 /* IntDList_node.hpp */,
+				4A6BF5782B6433F9008CFCA7 /* IntDList.hpp */,
 			);
 			path = project1;
 			sourceTree = "<group>";
@@ -119,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6BF5712B6433AF008CFCA7 /* main.cpp in Sources */,
+				4A6BF5792B6433F9008CFCA7 /* IntDList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
